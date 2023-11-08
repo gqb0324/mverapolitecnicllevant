@@ -1,10 +1,12 @@
+
 <?php
 
-function sumar($num1, $num2) {
-    $resultado = $num1 + $num2;
-    echo "La suma de $num1 y $num2 es: $resultado";
+function restar($num1, $num2) {
+    $resultado = $num1 - $num2;
+    echo "La resta de $num1 y $num2 es: $resultado";
 }
 
-sumar(5, 3); 
+
+restar(8, 3); 
 
 ?>
